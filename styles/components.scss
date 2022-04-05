@@ -1,0 +1,124 @@
+:root {
+  /*Colors*/
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  padding: 16px 50px;
+}
+.header {
+  padding: 16px 0;
+  border-bottom: 1px solid #d2d8ef;
+}
+.create-main-container {
+  margin-top: 32px;
+}
+.create-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-select svg {
+  display: none;
+}
+.create-text-area {
+  width: 65%;
+}
+
+.create-text-area .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.create-select {
+  width: 22%;
+}
+
+.create-select
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 100%;
+}
+
+.create-button {
+  width: 10%;
+  height: 100%;
+}
+.create-button button {
+  width: 100%;
+}
+.list-container {
+  padding: 50px 0 50px 0;
+}
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  background-color: #d2d8efcc;
+}
+.list-header-container {
+  width: 100%;
+}
+.list-cell-0 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+.list-cell-1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 100%;
+}
+
+.list-header-container .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  justify-content: flex-start;
+}
+
+.list-cell-area {
+  max-height: 250px;
+  overflow-y: scroll;
+  border: 1px solid #d2d8ef;
+}
+
+.css-sgvi9r-MuiInputBase-root-MuiFilledInput-root {
+  background-color: white;
+}
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 50px;
+  padding: 16px;
+}
+.footer-repo {
+  display: flex;
+  align-items: center;
+  width: 6%;
+  max-width: 105px;
+  min-width: 105px;
+  justify-content: space-between;
+}
